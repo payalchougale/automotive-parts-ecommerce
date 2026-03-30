@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automotive Parts Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Automotive Parts Store</h1>
+
+<!-- Category Filter -->
+<select id="categoryFilter">
+
+<option value="">All</option>
+<option value="Brake Pads">Brake Pads</option>
+<option value="Tires">Tires</option>
+<option value="Batteries">Batteries</option>
+<option value="Engine Parts">Engine Parts</option>
+<option value="Lights">Lights</option>
+<option value="Tools">Tools</option>
+
+</select>
+
+<button onclick="filterProducts()">Filter</button>
+
+<br><br>
+
+<!-- Product List -->
+<div id="products"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
